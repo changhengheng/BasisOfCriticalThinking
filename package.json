@@ -1,0 +1,27 @@
+{
+  "name": "criticalthinking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changhengheng/basisOfCriticalThinking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changhengheng/basisOfCriticalThinking/issues"
+  },
+  "homepage": "https://github.com/changhengheng/basisOfCriticalThinking#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "vuepress": "^1.9.7"
+  }
+}
