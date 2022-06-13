@@ -1,13 +1,13 @@
 module.exports = {
     title: 'foundationofCriticalThinking',
     dest: './dist',
-    base: '/basisOfCriticalThinking/',
+    base: '/BasisOfCriticalThinking/',
     repo:
-        'https://github.com/changhengheng/basisOfCriticalThinking',
+        'https://github.com/changhengheng/BasisOfCriticalThinking',
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'External', link: 'https://github.com/changhengheng/basisOfCriticalThinking' },
+            { text: 'External', link: 'https://github.com/changhengheng/BasisOfCriticalThinking' },
         ],
         sidebar: [
             {
